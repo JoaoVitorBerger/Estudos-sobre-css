@@ -1,0 +1,34 @@
+body{
+    background:#f7e5a8 url(img/leaves-7552915_1280.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 85%;
+}
+#container{
+    width: 600px;
+    height: 500px;
+    background: rgba(222, 255, 255, 0.7);
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+#container img{
+    width: 150px;
+    height: 150px;
+    margin-top: -75px;
+}
+#email,#senha{
+    
+    border: none;
+    padding: 20px;
+    padding-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+}
+#email{
+    background:white url(img/user-2935373_1280.png) no-repeat;
+    background-size: 60px;
+   
+}
+

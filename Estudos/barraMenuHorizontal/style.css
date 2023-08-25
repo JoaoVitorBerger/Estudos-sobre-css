@@ -1,0 +1,25 @@
+
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 720px;
+    float: left;
+    background:  #159cb0 url(img/fundo-horizontal.png) repeat-x;
+}
+
+ul li{
+    float: left;
+    list-style: none;
+    line-height: 2em;
+    padding: 0 2em;
+   
+    }
+
+ul li a{
+    text-decoration: none;
+    color: white;
+   
+    
+}

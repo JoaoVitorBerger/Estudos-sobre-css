@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+ul{
+   width: 720px;
+   list-style: none;
+   padding: 20px;
+}
+ul li{
+    float: left;
+    background: url(../navegacaoComAbas/img/arquivos-necessarios-navegacao-abas/aba-direita.png) no-repeat top right;
+}
+
+ul li a {
+    
+    display: block;
+    padding:0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: url(../navegacaoComAbas/img/arquivos-necessarios-navegacao-abas/aba-esquerda.png) no-repeat;
+    color: #fff;
+}
+ul a:hover{
+    color: #894a1f;
+ 
+  
+}
+
+
+ul #atual{
+    background: url(../navegacaoComAbas/img/arquivos-necessarios-navegacao-abas/aba-direita-atual.png) no-repeat;
+}
+ul #atual a {
+    background: url(../navegacaoComAbas/img/arquivos-necessarios-navegacao-abas/aba-esquerda-atual.png) no-repeat;
+}

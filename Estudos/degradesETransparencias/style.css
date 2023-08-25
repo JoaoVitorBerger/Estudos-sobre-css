@@ -1,0 +1,10 @@
+#caixa{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    box-sizing: border-box;
+    background: url(camera.png);
+}
+#caixa h1{
+    background: rgb(255,255,255);
+}

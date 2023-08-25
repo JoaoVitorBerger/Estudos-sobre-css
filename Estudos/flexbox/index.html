@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #conteudo{
+            background: #dcdcdc;
+         
+            height: 400px;
+            display: flex;
+            /*flex-direction:row;distribui o posicionamento das divs dentro do container, se ficarao alinhadas ou em colunas
+            flex-wrap:nowrap ;propriedade que determina se tera uma quebra nos elementos quando a tela for diminuida
+            justify-content:space-between;referente ao posicionamento das divs dentro do container
+            align-items: baseline;
+             flex-grow Define a proporção de espaço ocupado por um item
+             flex-shrink Define a capacidade de redução de tamanho do item
+            */
+        }
+        .item{
+            background: white;
+            border: 1px solid gray;
+            margin: 10px;
+            width: 100px;
+            height:100px ;
+            
+            flex-grow: 20px;
+        }
+        .ordem1{
+            order: 1;
+        }
+        .ordem2{
+            order: 2;
+        }
+        .ordem3{
+            order: 3;
+        }
+        .ordem4{
+            order: 4;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Flexbox</h1>
+    <div id="conteudo">
+        <div class="item ordem1">01</div>
+        <div class="item ordem2">02</div>
+        <div class="item ordem3">03</div>
+        <div class="item ordem4">04 <br> mais conteudo</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+
+#opcoes{
+  
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+}
+
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+
+ul a{
+   
+    width:200px ;
+    height:40px ;
+    display:block ;
+    color: #000;
+    text-decoration: none;
+    text-indent: 30px;/*A relaçaõ do texto e a margem*/
+    line-height: 40px;/*A relaçaõ da altura do texto*/
+    background: url(imagens/menu.png) no-repeat left bottom;
+    
+}
+a:hover{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+#home .home a,
+ .sobre a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
